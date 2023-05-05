@@ -1,0 +1,121 @@
+
+@font-face
+{
+  font-family: BEHAVIOR;
+  src: url(fonts/behavior.otf);
+}
+
+@font-face
+{
+  font-family: CHENTALLE;
+  src: url(fonts/chentalle.otf);
+}
+
+
+body
+{
+
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Poppins', arial;
+}
+
+header
+{
+z-index: 100;
+    width: 100vw;
+    background-color: #39875e;
+    height: 6vh;
+    color: white;
+    display: flex;
+    border-bottom: #262626 solid 1px;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+}
+
+section
+{
+  width: 70%;
+  margin-top: 7vh;
+}
+
+footer
+{
+width: 100vw;
+    background-color: #2d5a2f;
+    margin-top: 3%;
+        position: relative;
+    bottom: 0;
+    padding: 5vh;
+    color: white;
+    display: flex;
+    border-bottom: #262626 solid 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+{
+  transform: scale(1.1);
+}
+
+#element::-webkit-scrollbar
+{
+    display: none;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+h1
+{
+  
+    font-family: BEHAVIOR;
+    width: 60%;
+    letter-spacing: 0.4vw;
+    text-align: left;
+    margin-left: 3vw;
+    font-size: 2.6vh;
+    color: white;
+
+}
+
+.headerBttn
+{
+  height: 70%;
+    aspect-ratio: 1/1;
+    color: white;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    width: 15%;
+    font-family: 'Poppins';
+    font-weight: bold;
+    line-height: 105%;
+    font-size: 95%;
+    cursor: pointer;
+}
+
+
+#imgVCP
+{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    background-image: url(vcp.jpg);
+}
+}
